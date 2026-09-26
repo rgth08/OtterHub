@@ -4,8 +4,7 @@
   "private": true,
   "workspaces": [
     "frontend",
-    "shared",
-    "functions"
+    "shared"
   ],
   "scripts": {
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\" ",
